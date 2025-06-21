@@ -1,0 +1,36 @@
+body {
+    background-color: darkslategray;
+}
+
+#name {
+    color: darkorange;
+    text-align: center;
+    font-size: 72px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#jobTitle {
+    color: darkorange;
+    text-align: center;
+    font-size: 42px;
+    font: bold;
+    font-style: italic;
+}
+
+.portrait {
+    width: 300px;
+    /* Desired width */
+    height: 300px;
+    /* Desired height */
+    border-radius: 50%;
+    /* Makes the shape circular */
+    object-fit: cover;
+    /* Ensures the image is cropped properly */
+    overflow: hidden;
+    border: 2px solid #ccc;
+    /* Optional: Add a border */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
