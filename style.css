@@ -35,10 +35,41 @@ body {
     margin-right: auto;
 }
 
+.about {
+    background-color: darkturquoise;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact-wrapper {
+    background-color: darkturquoise;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 .contact {
     background-color: darkturquoise;
-    color: darkorange;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    padding: 20px;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.projects {
+    background-color: darkturquoise;
+    color: rgb(0, 0, 0);
     text-align: center;
+    padding: 20px;
     font-size: 24px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
