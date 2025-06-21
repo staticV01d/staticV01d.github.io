@@ -35,7 +35,7 @@ body {
     margin-right: auto;
 }
 
-#contact {
+.contact {
     background-color: darkturquoise;
     color: darkorange;
     text-align: center;
