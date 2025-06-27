@@ -36,8 +36,8 @@ body {
 }
 
 .about {
-    background-color: darkturquoise;
-    color: rgb(0, 0, 0);
+    /* background-color: darkturquoise; */
+    color: cornsilk;
     text-align: center;
     padding: 20px;
     display: flex;
@@ -49,7 +49,13 @@ body {
 }
 
 .contact-wrapper {
-    background-color: darkturquoise;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sites-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -57,19 +63,93 @@ body {
 }
 
 .contact {
-    background-color: darkturquoise;
-    color: rgb(0, 0, 0);
+    color: cornsilk;
     text-align: left;
+    padding: 20px;
+    font-size: 24px;
+    font-family: 'Segoe UI',
+        Tahoma,
+        Geneva,
+        Verdana,
+        sans-serif;
+
+    a {
+        color: darkorange;
+    }
+
+    a:hover {
+        color: blue;
+    }
+
+    a:visited {
+        color: darkcyan;
+    }
+
+
+}
+
+.projects {
+    color: rgb(0, 0, 0);
+    text-align: center;
     padding: 20px;
     font-size: 24px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.projects {
-    background-color: darkturquoise;
-    color: rgb(0, 0, 0);
+.my-sites {
+    text-align: left;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: cornsilk;
+    /* line-height: 1.7; */
+
+    h2 {
+        text-align: center;
+    }
+
+    a {
+        color: darkorange;
+    }
+
+    a:hover {
+        color: blue;
+    }
+
+    a:visited {
+        color: darkcyan;
+    }
+
+}
+
+.table-of-contents {
+
+    background-color: darkslategray;
     text-align: center;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    a {
+        color: darkorange;
+    }
+
+    a:hover {
+        color: aqua;
+    }
+
+    a:visited {
+        color: aqua;
+    }
+}
+
+h2 {
+    color: rgba(245, 245, 245, 0.788);
+}
+
+.footer {
+    background-color: darkslategray;
+    color: aqua;
     padding: 20px;
+    text-align: center;
     font-size: 24px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

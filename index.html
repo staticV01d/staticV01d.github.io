@@ -5,12 +5,26 @@
 <body>
     <div>
         <p id="name">Kyle Pummell</p>
-        <p id="jobTitle">Game Designer</p>
+        <p id="jobTitle">Game Designer / Writer / Programmer</p>
     </div>
     <div>
         <img src="Assets/portrait.jfif" alt="self-portrait" class="portrait">
     </div>
-    <div class="about">
+
+    <nav class="table-of-contents">
+        <h2>Table of Contents:</h2>
+        <ul>
+            <a href="#about">About Me</a>
+            <br>
+            <a href="#contact">Contact Information</a>
+            <br>
+            <a href="#projects">Projects</a>
+            <br>
+            <a href="#sites">Sites</a>
+        </ul>
+    </nav>
+
+    <div class="about" id="about">
         <h2>About Me</h2>
         <p>I am a game designer with a passion for creating engaging and immersive gaming experiences. I have a strong
             background in game mechanics, level design, and player experience. My goal is to contribute to innovative
@@ -18,8 +32,12 @@
         <p>With a keen eye for detail and a deep understanding of player psychology, I strive to design games that are
             not only fun to play but also meaningful and memorable. I am always eager to learn new skills and techniques
             to enhance my craft.</p>
+        <p>
+            In addition to game design, I am heavily into creative writing—especially short stories—and general
+            programming in C#, Python, and C++.
+        </p>
     </div>
-    <div class="contact-wrapper">
+    <div class="contact-wrapper" id="contact">
 
         <div class="contact">
             <h2>Contact Information</h2>
@@ -32,15 +50,34 @@
         </div>
     </div>
 
-    <div class="projects">
+    <div class="projects" id="projects">
         <h2>Projects</h2>
         <ul>
-            <li><iframe height="167" frameborder="0" src="https://itch.io/embed/3348735" width="552"><a href="https://staticv01d.itch.io/wrong">WRONG. by staticV01d</a></iframe></li>
+            <iframe frameborder="0" src="https://itch.io/embed/3348735?dark=true" width="552" height="167"><a
+                    href="https://staticv01d.itch.io/wrong">WRONG. by staticV01d</a></iframe>
+            <br>
+            <iframe frameborder="0" src="https://itch.io/embed/3678031?dark=true" width="552" height="167"><a
+                    href="https://staticv01d.itch.io/rooster-crossing">Rooster Crossing by staticV01d</a></iframe>
+    </div>
 
+    <div class="sites-wrapper" id="sites">
+        <div class="my-sites">
+            <ul>
+                <h2>My Sites</h2>
+                <p>Itch.io: <a href="https://staticv01d.itch.io/">staticv01d.itch.io</a></p>
+                <p>LinkedIn: <a
+                        href="https://www.linkedin.com/in/kyle-pummell-629992191/">linkedin.com/in/kyle-pummell-629992191</a>
+                </p>
+                <p>The X Place: <a href="https://app.thexplace.ai/app/talent/6364512dc2717fe60aa07e1b/about">My
+                        Profile</a></p>
+                <p>GitHub: <a href="https://github.com/staticV01d">github.com/staticV01d</a></p>
+            </ul>
+        </div>
+    </div>
+    <!-- Add Resume Section -->
     <div class="footer">
         <p>© 2023 Kyle Pummell. All rights reserved.</p>
     </div>
-
 </body>
 
 </html>
